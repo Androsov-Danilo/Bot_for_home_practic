@@ -2,7 +2,7 @@ const { Telegraf } = require('telegraf')
 // const { callback } = require('telegraf/typings/button')
 const sqlite3 = require('sqlite3').verbose()
 
-const bot = new Telegraf('6373270540:AAHn5a4oP0WVSKYGbc5PajZF62D0idekGcI')
+const bot = new Telegraf('')
 
 const db = new sqlite3.Database('sqlite3')
 
